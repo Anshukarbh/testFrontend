@@ -1,0 +1,37 @@
+.form-page {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.form-paper {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	background-color: #dcdcdc;
+	padding: 30px;
+}
+
+.form-div {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: baseline;
+}
+
+.background_img {
+	background-image: url('../image/background_img1.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.input_phoneInput {
+	width: inherit !important;
+    height: 7.5vh !important;
+}
+
+/* .Container_phoneInput {	
+	width: inherit;
+    height: 7.5vh;
+} */
